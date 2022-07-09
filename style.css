@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+#selected{
+    color:#0562b3;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.sub_tittle{
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 2rem;
+    color:#514b4b;
+    font-weight: 375;
+}
+
+.part{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2rem 1rem;
+    padding:2rem 3rem;
+    max-width: 85%;
+    margin: auto;
+}
+
+
+img{
+    height: 18rem;
+    width: 18rem;
+    object-fit: fill;
+    padding:3rem 3rem;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 6px grey;
+    border-radius: 5px;
+    margin: 2rem 5rem;
+}
+
+img:hover{
+    box-shadow: 0px 0px 1rem grey;
+}
+
+.pictures img {
+    transition: transform .5s ease;
+  }
+  
+.pictures:hover img {
+    transform: scale(1.1);
+  }
+
+.footer{
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+#end{
+    width:100%;
+    background-color: #2f2c2c;
+    height: 20vh;
+}
+
+
+@media(max-width:1024px){
+    .navbar{
+        max-width: 100%;
+    }
+    html{
+        font-size: 10px;
+    }
+    img{
+        width: 15rem;
+        height:15rem;
+    }
+   
+}
+
+@media(max-width:700px){
+    html{
+        font-size: 8px;
+    }
+    .content{
+        max-width: 100%;
+    }
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 8px;
+    }
+    img{
+        width: 10rem;
+        height:10rem;
+        padding: 1.5rem 1.5rem;
+    }
+}
+
+@media(max-width:370px){
+    html{
+        font-size: 8px;
+    }
+    img{
+        width: 7rem;
+        height:7rem;
+        padding: 1rem 1rem;
+    }
+}
+
+*{
+    /* border: 1px black; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 250;
+}
+
+a{
+    text-decoration: none;
+    color:#0a477c;
+}
+
+#title-name{
+    background-color: #2a2525;
+    font-size: 1.75rem;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    padding:5rem 1rem;
+    font-weight: 375;
+}
+
+#title-name h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 375;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin: 1rem 5rem;
+    max-width: 50%;
+    align-items: center;
+    margin: auto;
+}
+
+.elements{
+    color:#4d4949;
+    font-size: 2rem;
+    font-weight: 375;
+    padding: 1rem 0rem;
+}
+
